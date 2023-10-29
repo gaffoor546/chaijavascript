@@ -5,13 +5,13 @@
 
 console.log(3
      + 
-     9) // code readibillity should be high
+     9) // not to use this type of code. code readibillity should be high
 
 console.log("Gaffoor")
 
 let name = "Gaffoor" // string
 let age = 18 // number
-let isloggedIn = true
+let isloggedIn = true // boolean ==> true/false
 let state; // undefine
 let country =  //null
 
@@ -28,4 +28,4 @@ let country =  //null
 
 // object 
 
-console.log(typeof undefined);
+console.log(typeof name); 
