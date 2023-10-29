@@ -14,6 +14,24 @@ console.table([score,scorevalue,isloggedIn,outSideTemp,userEmail,username,
 typeof id,typeof aotherID])
 console.log(id === aotherID)
 
+const bigNumber= 2345678765434567n
+
 // Reference (Non Primitive)
 
 // Array, Objects, Functions
+
+const hero = ["shatiman", "Herosman", "doga"];
+
+let myObj ={
+    name: "Gaffoor",
+    age: 22,
+
+
+}
+
+const myFunction = function(){
+
+    console.log("hello www");
+}
+
+console.log(typeof myFunction)
