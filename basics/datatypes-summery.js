@@ -35,3 +35,30 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+/*************************** */
+// Stack (primitive data types), 
+
+let myProduct = "MGM store"
+let anotherProduct= myProduct
+
+anotherProduct="Umar Store"
+
+console.log(myProduct);
+console.log(anotherProduct);
+
+//Heap (non-primitive data types)
+let newUserProduct={
+    email: "newUserProduct@gmail.com",
+    upi: "newUser@ybl"
+}
+
+let oldUserProduct= newUserProduct
+
+oldUserProduct.email= "oldUserProduct@gmail.com"
+
+
+console.log(newUserProduct.email)
+console.log(oldUserProduct.email)
+
+
