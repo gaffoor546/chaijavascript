@@ -3,7 +3,7 @@
 const myArray = [1,2,3,4,5,6,7,8]
 // console.log(myArray);
 
-const myHeros = ["IronMan", "Toar", "SpiderMan"]
+const myHeros = ["IronMan", "Thor", "SpiderMan"]
 // console.log(myHeros);
 // console.log(myHeros[2]);
 // console.log(myHeros.length);
