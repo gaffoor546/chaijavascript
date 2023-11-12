@@ -50,14 +50,51 @@ const user = [{
 
 user[1].email
 
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isloggedIn' ]
-console.log(Object.values(tinderUser)); //[ '123abc', 'Sammy', false ]
+// console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isloggedIn' ]
+// console.log(Object.values(tinderUser)); //[ '123abc', 'Sammy', false ]
 
-console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isloggedIn', false ] ]
+// console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isloggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isloggedIn'));
+// console.log(tinderUser.hasOwnProperty('isloggedIn'));
 
 
+//*********Object API******************/ 
+
+const course = {
+    courseName: "JS in English",
+    price: "999",
+    courseInstructor: "Gaffoor"
+}
+
+//course.courseInstructor
+
+//const {courseInstructor} = course
+//console.log(courseInstructor); // Gaffoor
+const {courseInstructor: instructor} = course
+console.log(instructor);// Gaffoor
+
+// const navbar = ({company}) => {
+// }
+// navbar(company="MGMstore")
+
+//**********API's ************** */
+
+// {
+//     "name": "Gaffoor",
+//     "courseName": "JS in English",
+//     "price": "free"
+    
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
+
+
+////***https://randomuser.me/******https://randomuser.me/api/****************/
 
