@@ -44,7 +44,7 @@ let anotherProduct= myProduct
 
 anotherProduct="Umar Store"
 
-console.log(myProduct);
+console.log(myProduct);//
 console.log(anotherProduct);
 
 //Heap (non-primitive data types)
