@@ -40,8 +40,17 @@ let val1;
 
 // consition ? true : false
 
-const iceTeaPrice = 100
-iceTeaPrice <=80 ? console.log("less than 80") : console.log("more than 80");
+//const iceTeaPrice = 100
+//iceTeaPrice <=80 ? console.log("less than 80") : console.log("more than 80");
 
 
-
+function makeFunc() {
+    const name = "Mozilla";
+    function displayName() {
+      console.log(name);
+    }
+    return displayName;
+  }
+  
+  const myFunc = makeFunc();
+  myFunc();
